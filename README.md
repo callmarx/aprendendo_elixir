@@ -1,5 +1,9 @@
 # Aprendendo Elixir
 
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](/LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](/code_of_conduct.md)
+[![love](https://img.shields.io/badge/BUILD%20WITH-%F0%9F%96%A4-lightgreen)](https://callmarx.github.io)
+
 Como bom fanboy que sou de Ruby (e Rails), decidir estudar [Elixir](https://elixir-lang.org) -
 linguagem brazuca e com sintaxe insparada no Ruby.
 
@@ -8,7 +12,7 @@ linguagem brazuca e com sintaxe insparada no Ruby.
 Cheguei a pensar em comprar algum curso online, mas ~~como sou canguinha e mais implicante do que
 debugar java no Eclipse~~ decidi seguir os tutoriais do
 [Elixir School](https://elixirschool.com/pt/) juntamente com a lista de exercícios sobre a
-linguagem do [Exercism](https://exercism.io/my/tracks/elixir).
+linguagem do <https://exercism.io>.
 
 A ideia aqui é fazer uma mistura de um diário de estudo com tutorial de ensino sob a minha
 perspectiva através deste projeto. Isso tudo também será postado em
@@ -27,7 +31,7 @@ $ sudo pacman -S elixir
 
 Você deve obter algo como:
 
-```bash
+```
 $ elixir -v
 Erlang/OTP 23 [erts-11.2] [source] [64-bit] [smp:12:12] [ds:12:12:10] [async-threads:1] [hipe]
 
@@ -40,36 +44,8 @@ Para submter os exercícios de <https://exercism.io/tracks/elixir>, também inst
 ```bash
 # instalação
 $ yay -S exercism
-
-# você deve obter algo como
-$ exercism -h
-A command-line interface for the v2 redesign of Exercism.
-
-Download exercises and submit your solutions.
-
-Usage:
-   [command]
-
-Available Commands:
-  configure    Configure the command-line client.
-  download     Download an exercise.
-  help         Help about any command
-  open         Open an exercise on the website.
-  prepare      Prepare does setup for Exercism and its tracks.
-  submit       Submit your solution to an exercise.
-  troubleshoot Troubleshoot does a diagnostic self-check.
-  upgrade      Upgrade to the latest version of the CLI.
-  version      Version outputs the version of CLI.
-  workspace    Print out the path to your Exercism workspace.
-
-Flags:
-  -h, --help           help for this command
-      --timeout int    override the default HTTP timeout (seconds)
-      --unmask-token   will unmask the API during a request/response dump
-  -v, --verbose        verbose output
-
-Use " [command] --help" for more information about a command.
 ```
+
 
 Como utilizo o NeoVim - cheio de firulas visuais com diversos plugins - instalei o
 [vim-elixr](https://github.com/elixir-editors/vim-elixir).
