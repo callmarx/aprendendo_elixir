@@ -1,18 +1,20 @@
 # Aprendendo Elixir
 
-[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](/LICENSE)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](/code_of_conduct.md)
+[![License](https://img.shields.io/badge/License-MIT-lightgray)](/LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-lightblue)](/code_of_conduct.md)
 [![love](https://img.shields.io/badge/BUILD%20WITH-%F0%9F%96%A4-lightgreen)](https://callmarx.github.io)
 
-Como bom fanboy que sou de Ruby (e Rails), decidir estudar [Elixir](https://elixir-lang.org) -
-linguagem brazuca e com sintaxe insparada no Ruby.
+Como bom fanboy que sou de Ruby (e Rails), decidi estudar [Elixir](https://elixir-lang.org) -
+linguagem brazuca e com sintaxe inspirada no Ruby.
 
 ## Método de estudo
 
 Cheguei a pensar em comprar algum curso online, mas ~~como sou canguinha e mais implicante do que
 debugar java no Eclipse~~ decidi seguir os tutoriais do
-[Elixir School](https://elixirschool.com/pt/) juntamente com a lista de exercícios sobre a
-linguagem do <https://exercism.io>.
+[Elixir School](https://elixirschool.com/pt/), o
+[Getting Started](https://elixir-lang.org/getting-started) e a
+[documentação oficial](https://hexdocs.pm/elixir/Kernel.html). Além disso, fazer os exercícios
+sobre a linguagem do <https://exercism.io>.
 
 A ideia aqui é fazer uma mistura de um diário de estudo com tutorial de ensino sob a minha
 perspectiva através deste projeto. Isso tudo também será postado em
