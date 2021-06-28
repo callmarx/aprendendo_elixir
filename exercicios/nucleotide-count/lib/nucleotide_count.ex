@@ -31,7 +31,7 @@ defmodule NucleotideCount do
     # Map.new(@nucleotides, fn key -> {key, count(strand, key)} end)
 
     ## Solution 2:
-    result = Map.new(@nucleotides, fn key -> {key, 0} end)
+    result = Map.new(@nucleotides, &{&1, 0})
     Enum.reduce(
       strand,
       result,
